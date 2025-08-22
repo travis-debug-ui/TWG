@@ -1,0 +1,124 @@
+.nav-item{
+	font-size: 16px;
+	font-weight: bold;
+	color: darkblue;
+	background-color: #BE8B25;
+	width:auto;
+	border-radius:15px;
+}
+.nav-item a{
+	border: 2px solid #FF0 E2E;
+	text-decoration: none;
+	padding:15px;
+	font-weight:bold;
+	
+}
+nav{
+	background-color: #7F09A1;
+}
+nav ul{
+	list-style:none;  
+	display: flex;
+	align-items:center;
+	justify-content:space-around;
+}
+.nav-item a:hover{ 
+	color:orange;
+	}
+.events-container{
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	gap:10px;
+	justify-content:space-evenly;
+}
+.events-card{
+	border:1px solid orange;
+	border-radius:15px;
+	padding:10px;
+}
+.events-card i{
+	color:green;
+}
+.events-card button{
+	background-color:orange;
+	color:white;
+	border:2px solid black;
+	border-radius:10px;
+	font-size:large;
+	font-weight:bold;
+}
+.event-category{
+	background-color:#BE8B25;
+	border:1px solid black;
+	padding:10px;
+	border-radius:15px;
+	font-size:22px;
+	height:30px;
+}
+	.event-categories{
+		display:flex; 
+		
+		justify-content:space-around;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+	.event-category:hover{
+		background-color:orange;
+		color:white;
+	}
+	.events{
+		display:grid;
+	grid-template-columns:auto auto auto auto;
+	gap:10px;
+	justify-content:space-evenly;
+	}
+	.contact-items{
+		display:flex;
+		justify-content:space-around;
+		align-items:centre;
+	}
+	.contact-item{
+		background-color:#BE8B25;
+	border:1px solid black;
+	padding:10px;
+	border-radius:15px;
+	font-size:22px;
+	height:30px;
+	}
+	.contact-item a{
+		text-decoration:none;
+	}
+	.contacy-item:hover{
+		background-color:orange;
+	}
+	.contact-area{
+		display:flex;
+		justify-content:centre;
+		align-items:centre;
+		column-gap:15px;
+		
+	}
+	.contact-form{
+		display:flex;
+		flex-direction:column;
+	}
+	.contact-form form{
+		display:flex;
+		flex-direction:column;
+		border:1px solid black;
+	}
+	.contact-form form input{
+		border:2px solid orange;
+		border-radius:15px;
+		width:100%;
+	}
+	.input,label,textarea{
+		padding:15px;
+	}
+.map iframe{
+	height:400px;
+	width:100%;
+
+}	
+		
+		
